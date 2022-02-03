@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #title {
@@ -20,6 +21,7 @@
     font-size: 15px;
     font-style: italic;
     padding-bottom: 30px;
+    font-weight: lighter;
 }
 
 #img-div {
@@ -53,4 +55,14 @@
 
 #footer {
     padding-top: 20px;
+}
+
+#middle {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex: 50%;
 }
