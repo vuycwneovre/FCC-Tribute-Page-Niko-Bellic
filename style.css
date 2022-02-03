@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+#quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#image {
+    width: 30%;
+}
+
+#img-caption {
+    font-size: 12px;
+    font-style: oblique;
+    padding-top: 5px;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 15px;
+}
+
+#footer {
+    padding-top: 20px;
+}
