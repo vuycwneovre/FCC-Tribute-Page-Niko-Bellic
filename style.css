@@ -35,6 +35,7 @@
 
 #image {
     width: 30%;
+    border-radius: 5px;
 }
 
 #img-caption {
@@ -64,5 +65,5 @@
 
 .column {
     display: flex;
-    flex: 50%;
+    flex: 70%;
 }
